@@ -1,0 +1,35 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#css-element{
+    background-color: black;
+    padding: 100px;
+    color: white;
+}
+#border-preview-group{
+    gap: 2vh;
+}
+
+#border-preview-group>button{
+    width: 100px;
+    height: 50px;
+    background-color: dimgray;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#border-preview-group>button:hover{
+    background-color: rgb(52, 52, 52);
+}
+
+#radius-input{
+    height: 40px;
+    width: 180px;
+    font-size: medium;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+    border-radius: 7px;
+}

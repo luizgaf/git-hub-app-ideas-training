@@ -4,8 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bin2Dec</title>
+
+    <link rel="stylesheet" href="../../css/classes.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <div class="center-items flex-wrap-collumn" id="input-group">
+        <h1>Bin2Dec</h1>
+        <label for="binarybox">Binary Number</label>
+        <input id="binarybox" type="text" required placeholder="Binary Input">
+        <label for="decimalbox">Decimal Converted</label>
+        <input id="decimalbox" type="text" readonly placeholder="Decimal Input">
+        <button type="submit" id="convert-button" onclick="binaryToDecimal()">Convert</button>
+    </div>
 </body>
 </html>
