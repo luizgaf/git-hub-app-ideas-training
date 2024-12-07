@@ -1,0 +1,53 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#calcuator-group{
+    gap: 1.2vh;
+}
+
+.input{
+    height: 40px;
+    width: 190px;   
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#result-button{
+    height: 50px;
+    width: 140px;
+    border-radius: 12px;
+    border: 0px;
+    cursor: pointer;
+    background-color: rgb(57, 57, 57);
+    color: white;
+    transition: ease-in-out 0.1s;
+    font-weight: bold;
+}
+#result-button:hover{
+    background-color: black;
+}
+
+.result{
+    height: 40px;
+    width: 220px;   
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#operation-type{
+    width: 130px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+h5{
+    font-size: medium;
+}
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+    
+        <link rel="stylesheet" href="../../css/classes.css">
+        <link rel="stylesheet" href="styles.css">
+    
+        <script src="script.js" defer></script>
+    </head>
+<body>
+    <p>This is a basic calcuator</p>
+
+    <div id="calcuator-group" class="center-items flex-wrap-collumn">
+        <H1>Calculator</H1>
+        <div>
+            <h5>First Number:</h5>
+            <input class="input" id="firstNum" type="text">
+        </div>
+        <div>
+            <h5>Second Number: </h5>
+            <input class="input" id="secondNum"  type="text">
+        </div>
+        <div>
+            <h5>Operation type:</h5>
+            <select id="operation-type">
+                <option value="sum">Sum</option>
+                <option value="sub">Subtration</option>
+                <option value="mult">Mutiplication</option>
+                <option value="div">Division</option>
+            </select>
+        </div>
+        <button id="result-button" onclick="calculate()">Result</button>
+        <div>
+            <h5>Result:</h5>
+            <input class="result" id="result" type="text" readonly>
+        </div>
+    </div>
+
+</body>
+</html>
